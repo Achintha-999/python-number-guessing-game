@@ -1,59 +1,108 @@
-# Number Guessing Game
+# 🎯 Number Guessing Game
 
-This is a simple **Number Guessing Game** implemented in Python. The game generates a random number, and the player has to guess it within a limited number of attempts.
+Welcome to the **Number Guessing Game** 🕹️ – a fun Python CLI game where you challenge yourself to guess the secret number within limited attempts!
 
-## Features
+---
 
-- Random number generation between a specified range (default: 1 to 100).
-- User-friendly input validation.
-- Feedback on whether the guess is too high or too low.
-- Tracks total games played and total wins.
-- Option to play multiple rounds.
+## ✨ Features
 
-## How to Play
+✅ Random number generation (default range: **1 to 100**)  
+✅ Friendly input validation 💬  
+✅ Hints whether your guess is **too high** 📈 or **too low** 📉  
+✅ Tracks total games played 🎲 and total wins 🏆  
+✅ Option to play multiple rounds 🔁
 
-1. Run the game using Python.
-2. The game will generate a random number between 1 and 100.
-3. You have 7 attempts to guess the number.
-4. After each guess, the game will tell you if your guess is too high, too low, or correct.
-5. If you guess the number correctly, you win the round.
-6. After each round, you can choose to play again or exit the game.
+---
 
-## Installation
+## 🚀 How to Play
 
-1. Clone this repository or download the `guess_game.py` file.
-2. Ensure you have Python 3 installed on your system.
+📌 **Steps:**
 
-## Usage
+1. 🏃‍♂️ Run the game using Python.
+2. 🎲 A random number between **1–100** will be generated.
+3. ⏳ You have **7 attempts** to guess it.
+4. 📢 After each guess, you'll get feedback:
+   - "Too high!" 🔺
+   - "Too low!" 🔻
+   - "Correct!" 🎉
+5. 🏆 Guess the number to win the round.
+6. 🔄 Play again or exit after each round.
 
-Run the following command to start the game:
+---
+
+## 📦 Installation
+
+📥 Clone this repository or download `guess_game.py`:
+
+```bash
+git clone https://github.com/Achintha-999/python-number-guessing-game.git
+```
+
+💻 Make sure you have **Python 3.x** installed.
+
+---
+
+## ▶️ Usage
+
+Run the game:
 
 ```bash
 python guess_game.py
+```
 
+---
 
-Example Gameplay:
+## 🎮 Example Gameplay
 
-Welcome to the Number Guessing Game!
+```
+🎉 Welcome to the Number Guessing Game!
 
 Guess the number between 1 and 100!
 You have 7 attempts.
 
 Attempts left: 7
 Enter your guess (1-100): 50
-Too low!
+Too low! 🔻
 
 Attempts left: 6
 Enter your guess (1-100): 75
-Too high!
+Too high! 🔺
 
 Attempts left: 5
 Enter your guess (1-100): 63
 🎉 Congratulations! You guessed it in 3 attempts!
 
-Your stats: 1/1 wins
+Your stats: 1/1 wins 🏆
 
 Play again? (yes/no): no
 
-Thanks for playing! Goodbye.
+👋 Thanks for playing! Goodbye.
+```
+
+---
+
+## 🛠 Requirements
+
+- Python 3.x 🐍
+- Works on Windows, macOS, and Linux 💻
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. 📄
+
+---
+
+## ❤️ Contributing
+
+Feel free to fork this repo, make changes, and submit pull requests! ✨
+
+
+
+---
+
+## 🌟 Star This Repo
+
+If you like this game, please ⭐ star this repository to support the project!
 

@@ -1,4 +1,4 @@
-# 🎯 Number Guessing Game
+![Languages](https://skillicons.dev/icons?i=py) # 🎯 Number Guessing Game
 
 Welcome to the **Number Guessing Game** 🕹️ – a fun Python CLI game where you challenge yourself to guess the secret number within limited attempts!
 
